@@ -1,17 +1,19 @@
-package model.service.implement;
+package com.eder.labpadroesprojetosspring.service.implement;
 
 import java.util.Optional;
 
+import com.eder.labpadroesprojetosspring.model.Cliente;
+import com.eder.labpadroesprojetosspring.model.Endereco;
+import com.eder.labpadroesprojetosspring.repository.ClienteRepository;
+import com.eder.labpadroesprojetosspring.repository.EnderecoRepository;
+import com.eder.labpadroesprojetosspring.viacep.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import model.Cliente;
-import model.Endereco;
-import model.repository.ClienteRepository;
-import model.repository.EnderecoRepository;
-import model.service.ClienteService;
-import model.viacep.ViaCepService;
-@Service
+import com.eder.labpadroesprojetosspring.service.ClienteService;
+
+@Component
 public class ClienteServiceImplement implements ClienteService {
 	@Autowired
 	private ClienteRepository repository;
