@@ -1,5 +1,6 @@
-package model.controller;
+package com.eder.labpadroesprojetosspring.controller;
 
+import com.eder.labpadroesprojetosspring.model.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import model.Cliente;
-import model.service.ClienteService;
-import model.service.implement.ClienteServiceImplement;
+import com.eder.labpadroesprojetosspring.service.ClienteService;
 
 @RestController
 @RequestMapping("clientes")

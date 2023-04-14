@@ -1,7 +1,9 @@
-package model;
+package com.eder.labpadroesprojetosspring.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+@Entity
 public class Endereco {
 	@Id
 	private String cep;

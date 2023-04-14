@@ -1,6 +1,6 @@
-package model.service;
+package com.eder.labpadroesprojetosspring.service;
 
-import model.Cliente;
+import com.eder.labpadroesprojetosspring.model.Cliente;
 
 public interface ClienteService {
 

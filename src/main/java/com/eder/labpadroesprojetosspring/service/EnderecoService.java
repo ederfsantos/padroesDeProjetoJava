@@ -1,7 +1,7 @@
-package model.service;
+package com.eder.labpadroesprojetosspring.service;
 
 
-import model.Endereco;
+import com.eder.labpadroesprojetosspring.model.Endereco;
 
 public interface EnderecoService {
 	Iterable <Endereco> buscarTodos();
